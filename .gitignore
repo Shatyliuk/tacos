@@ -1,0 +1,6 @@
+/node_modules/
+/.gulp/
+/.idea/
+/build/
+*.psd
+/Fonts/

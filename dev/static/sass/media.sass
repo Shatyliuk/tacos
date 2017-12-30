@@ -1,0 +1,159 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  header
+    .header
+      padding-top: 25px
+  .top-banner
+    padding-top: 80px
+    .header-text
+      margin: 0 auto 30px
+      h1
+        font-size: 28px
+    .glases-block
+      margin-bottom: 30px
+  .title
+    font-size: 64px
+    padding-right: 0
+    &:after
+      right: 50px
+      width: 400px
+  .section-whatIDo
+    .top-text
+      p
+        padding-left: 40px
+        padding-right: 20px
+    .skills
+      margin-bottom: 0
+      .skills-item
+        &:last-child
+          padding-top: 40px
+  .section-myWorks
+    .scroll-down
+      top: -100px
+    .my-works-text
+      text-align: center
+      padding-right: 0
+      padding-top: 145px
+      &:after
+        left: 50%
+        transform: translate(-50%, 0)
+        width: 482px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .main-navigation
+    ul
+      li
+        a
+          font-size: 20px
+  .top-banner
+    .load-button
+      margin-bottom: 20px
+    .scroll-down
+      .scroll-down_lines
+        height: 154px
+      .scroll-down_mouse
+        top: 27px
+        &.mouse-down
+          top: 105px
+  .title
+    width: 100%
+    text-align: center
+    margin-bottom: 60px
+    &:after
+      left: 50%
+      transform: translate(-50%,0)
+      width: 440px
+  .section-whatIDo
+    .skills
+      .skills-item
+        width: 100%
+        padding: 0 20px
+        max-width: inherit
+        margin-right: 0
+        margin-bottom: 40px
+        p
+          font-size: 24px
+          line-height: 38px
+        h3
+          font-size: 28px
+  .top-text
+    margin-bottom: 60px
+    p
+      width: 100%
+      font-size: 24px
+      line-height: 38px
+      text-align: center
+      padding: 0 20px
+      &:before
+        display: none
+  .about-me
+    .load-button
+      margin-bottom: 60px
+    .skills-info_wrapper
+      .skills-info_item
+        margin-bottom: 50px
+        h3
+          font-size: 24px
+        p
+          font-size: 22px
+          line-height: 32px
+  .section-contact
+    .contact-form
+      font-size: 26px
+      width: 100%
+      .load-button
+        a
+          font-size: 28px
+      .load-button_lines
+        top: 10px
+    .contact-information
+      width: 100%
+      font-size: 20px
+      padding-right: 0
+      h2
+        &:after
+          left: 50%
+  footer
+    .footer
+      .copyrights
+        width: 100%
+        text-align: center
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .main-navigation
+    ul
+      li
+        margin-right: 0
+        a
+          font-size: 16px
+          padding: 6px 6px 8px
+          text-decoration: underline
+  .top-banner
+    background: #fdd200
+    .glases-block
+      .glases-lines
+        width: 450px
+  .section-contact
+    .contact-information
+      .adress
+        font-size: 14px
+      .adress-information,
+      .phone-number
+        margin-right: 20px
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .section-whatIDo
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  .section-whatIDo
+
+/**/

@@ -1,0 +1,135 @@
+extends ../layout/main
+block variables
+    - var title = 'Index'
+block content
+    section.top-banner
+        .container
+            .header-text
+                h1 Tacos cardigan truffaut quanted!
+            .glases-block
+                .glases
+                .glases-lines
+            .load-button
+                a(href='javascript:void(0);') see more
+                .load-button_lines
+            .scroll-down
+                .scroll-down_lines
+                .scroll-down_mouse(id='mouse')
+    section.section-whatIDo
+        .container
+            .top-text
+                h2.title What i do
+                p Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed mumblecore beard pickled letterpress normcore crucifix.
+            .skills
+                .skills-item
+                    .skill-image_block
+                        .skill-image
+                    .vertical-lines_block
+                        .vertical-lines
+                    h3 Ultricies
+                    p Four dollar toast messenger bag green juice, organic cliche tofu synth small batch locavore austin. Squid mlkshk authe ntic pinterest, pour-over gastropub XOXO seitan sartorial
+                .skills-item
+                    .skill-image_block
+                        .skill-image
+                    .vertical-lines_block
+                        .vertical-lines
+                    h3 Porttitor
+                    p Tofu mixtape selfies, swag brooklyn banh mi stumptown loca vore yr migas tousled chicharrones sriracha cray leggings. Street art tousled kale chips poutine schlitz. Pitchfork distillery next level, polaroid roof party austin.
+                .skills-item
+                    .skill-image_block
+                        .skill-image
+                    .vertical-lines_block
+                        .vertical-lines
+                    h3 Curabitur
+                    p Dreamcatcher deep v austin schlitz drinking vinegar, messen ger bag slow-carb. Migas tumblr kombucha you probably hav en't heard of them +1 chicharrones. Tilde wayfarers craft beer stumptown, humblebrag ugh whatever.
+    section.section-myWorks
+        .container
+            .scroll-down
+                .scroll-down_lines
+                .scroll-down_mouse
+            h2.title.my-works-text My works
+        .works-gallery
+            .works-item
+                a(href='static/img/content/work1.png')
+                    img(src='static/img/content/work1.png')
+            .works-item
+                a(href='static/img/content/work2.png')
+                    img(src='static/img/content/work2.png')
+            .works-item
+                a(href='static/img/content/work3.png')
+                    img(src='static/img/content/work3.png')
+            .works-item
+                a(href='static/img/content/work4.png')
+                    img(src='static/img/content/work4.png')
+            .works-item
+                a(href='static/img/content/work1.png')
+                    img(src='static/img/content/work1.png')
+            .works-item
+                a(href='static/img/content/work2.png')
+                    img(src='static/img/content/work2.png')
+            .works-item
+                a(href='static/img/content/work3.png')
+                    img(src='static/img/content/work3.png')
+            .works-item
+                a(href='static/img/content/work4.png')
+                    img(src='static/img/content/work4.png')
+    section.about-me
+        .container
+            .load-button
+                a(href='javascript:void(0);') load more
+                .load-button_lines
+            .top-text
+                h2.title What i do
+                p Fingerstache green juice semiotics quinoa, truffaut letterpress wolf photo booth ugh biodiesel mumblecore brunch. Meh austin vinyl banh mi, gluten-free chillwave scenester kombucha street art. Before they sold out lumbersexual chillwave, cold-pressed mumblecore beard pickled letterpress normcore crucifix.
+            .skills-info_wrapper
+                .skills-info_item
+                    .skills-info_background
+                        .skills-info_circle
+                    span 75%
+                    h3 photoshop
+                    p Mustache butcher direct trade, locavore banjo flexitarian taxidermy swag poutine literally. Selvage bushwick pour-over hella, austin kogi tumblr 90's chartreuse tacos.
+                .skills-info_item
+                    .skills-info_background
+                        .skills-info_circle
+                    span 65%
+                    h3 Illustrator
+                    p Viral actually PBR&B, portland wayfarers gluten-free pour-over. Pop-up kombucha chicharrones, YOLO mixtape celiac squid. Heirloom plaid everyday carry mustache.
+                .skills-info_item
+                    .skills-info_background
+                        .skills-info_circle
+                    span 25%
+                    h3 knitting
+                    p Pitchfork distillery next level, polaroid roof party austin fanny pack knausgaard everyday carry ethical freegan plaid yuccie brunch. Blue bottle wayfarers umami messenger.
+
+    section.section-contact
+        .container
+            form.contact-form
+                label(for='name') Name:
+                input(type='text', id='name')
+                label(for='email') Email:
+                input(type='text', id='email')
+                label(for='message') Message:
+                textarea(id='message')
+                .load-button
+                    a(href='javascript:void(0);', type='submit') Send
+                    .load-button_lines
+            .contact-information
+                h2.title Contact
+                .social-icons
+                    a(href='javascript:void(0);').social-icon.facebook
+                    a(href='javascript:void(0);').social-icon.twitter
+                    a(href='javascript:void(0);').social-icon.google
+                    a(href='javascript:void(0);').social-icon.pinterest
+                    a(href='javascript:void(0);').social-icon.instagram
+                .adress
+                    .adress-information
+                        h3 address:
+                        span 9114 Bridge Street,
+                        span Hillsboro, OR 97124
+                    .phone-number
+                        h3 phone:
+                        span +48 202 - 555 - 0114
+                    .email
+                        h3 email:
+                        span contact@yoursite.com
+

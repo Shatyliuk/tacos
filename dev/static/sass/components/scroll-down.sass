@@ -1,0 +1,21 @@
+.scroll-down
+  text-align: center
+  position: relative
+  .scroll-down_lines
+    background: url("../../static/img/general/scroll-down_lines.png") center center no-repeat
+    display: inline-block
+    width: 5px
+    height: 225px
+    position: relative
+  .scroll-down_mouse
+    background: url("../../static/img/general/scroll-down_mouse.png") center center no-repeat
+    display: inline-block
+    width: 31px
+    height: 58px
+    position: absolute
+    left: 50%
+    top: 25px
+    transform: translate(-50%, 0)
+    transition: 1s all ease-in-out
+    &.mouse-down
+      top: 145px
